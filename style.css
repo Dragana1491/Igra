@@ -1,0 +1,57 @@
+.banner{
+
+    height:50vh;
+    position:relative;
+    top:0px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.stubovi{
+    position: absolute;
+    top:40%;
+    left:25%;
+
+}
+img{
+    width: 60px;
+    height:60px;
+    background-color: white;
+    margin-left: 100px;
+    /*text-align: center;  yasto ovo ne ra\di nego moram marginu da podesim rucno?*/
+    border-radius:50px;
+    border-color: silver;
+    
+}
+
+.blue{display: inline-block;
+    width: 250px;
+    height:350px;
+    background-color: skyblue;
+}
+.red{display: inline-block;
+    width: 250px;
+    height:350px;
+    background-color: rgb(248, 45, 45);
+}
+.yellow{display: inline-block;
+    width: 250px;
+    height:350px;
+    background-color: yellow;
+}
+.green{display: inline-block;
+    width: 250px;
+    height:350px;
+    background-color: yellowgreen;
+}
+h3{
+    text-align: center;
+}
+
+a{ position:absolute;
+    top:0px; 
+    right:0px;
+     margin:20px;
+    float:right;
+}
