@@ -14,14 +14,16 @@
     
     <body>
     
-        <div class=" position-relative has-bg-img" style="
+         <!-- <div class=" position-relative has-bg-img" style="
         background-image: url('public/images/background.jpg') ;
         background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         height: 50vh; 
-        ">
-        <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>
+        "> -->
+        <div class="wrapper">
+            <img class="img-fluid" src="public/images/background.jpg"/>
+            <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>   
         </div>
 
                 <div class="stubovi" class="container position-absolute top-80 start-50 translate-middle">
