@@ -14,8 +14,15 @@
     
     <body>
     
-        <div class=" position-relative has-bg-img" class="bcgr"> 
+       
         
+         <div class=" position-relative has-bg-img background-image">
+
+       
+
+
+        <div class="wrapper">
+      
             <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>   
         </div>
 
