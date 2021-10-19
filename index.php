@@ -14,33 +14,14 @@
     
     <body>
     
-         <div class=" position-relative has-bg-img background-image">
-
-        <!-- 
-            Pregledao sam. Jedina zamerka vezana za kod je to što bi trebala background image učitaš kroz tag sliku, 
-            ili na ovaj način kako si uradila, ali da umesto inline css koristiš neku klasu.
-
-            Ovo iznad je komentar sa trela koji nije najsrećnije sročen kada malo bolje pogledam...
-            Uglavnom probala si sa slikom i preko boostrapa i to je ok. Elem dalje u tekstu sam napisao da je tvoje rešenje ok, 
-            samo što si umesto inline css trebala da prepišeš tvoju stilizaciju u css i onda pozoveš tu klasu u divu.
-            Ja sam dodao klasu background-image i na nju sam bukvalno prekopirao tvoja podešavanja, uz promenu putanje slike pošto se css
-            nalazi na drugom mestu. INLINE CSS GLEDAJ DA NE KORISTIŠ!
-
-         -->
-        <!-- 
         <div class=" position-relative has-bg-img" style="
-            background-image: url('public/images/background.jpg') ;
-            background-repeat: no-repeat;
+        background-image: url('public/images/background.jpg') ;
+        background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 50vh; 
-        "> -->
-
-
-
-        <div class="wrapper">
-            <!-- <img class="img-fluid" src="public/images/background.jpg"/> -->
-            <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>   
+        height: 50vh; 
+        ">
+        <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>
         </div>
 
                 <div class="stubovi" class="container position-absolute top-80 start-50 translate-middle">
