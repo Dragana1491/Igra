@@ -1,6 +1,6 @@
 .stubovi{
     position: absolute;
-    top:50%;
+    top:40%;
     left: 15%;
     right:15%;
    
@@ -8,12 +8,4 @@
 }
 .fas{
     color:black;
-}
-
-.background-image {
-    background-image: url('../images/background.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 65vh; 
 }
