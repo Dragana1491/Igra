@@ -23,7 +23,8 @@
 
         <div class="wrapper">
       
-            <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>   
+            <a href="novastranica.php"><button class="position-absolute top-0 end-0 m-3 btn btn-danger btn-lg">Uči kroz igru</button></a>  
+            <a href="forma.php"><button class="position-absolute top-0 end-1  float-right m-3 btn btn-danger btn-lg">Registracija</button></a>  
         </div>
 
                 <div class="stubovi" class="container position-absolute top-80 start-50 translate-middle">
